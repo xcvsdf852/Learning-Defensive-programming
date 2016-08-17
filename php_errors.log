@@ -1,0 +1,21 @@
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP Warning:  require_once(/home/ubuntu/workspace/Learning-Defensive-programming/sign_up/models/get_people_list.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/Controller.php on line 6
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP Stack trace:
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/index.php:0
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   2. App->__construct() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/index.php:8
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32}() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   4. BackstageController->get_people() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   5. Controller->model() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/controllers/BackstageController.php:70
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/Learning-Defensive-programming/sign_up/models/get_people_list.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/Controller.php on line 6
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP Stack trace:
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/index.php:0
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   2. App->__construct() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/index.php:8
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32}() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   4. BackstageController->get_people() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32
+[17-Aug-2016 17:35:46 Asia/Taipei] PHP   5. Controller->model() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/controllers/BackstageController.php:70
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP Parse error:  syntax error, unexpected '"'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/views/Backstage_people.php on line 144
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP Stack trace:
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/index.php:0
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP   2. App->__construct() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/index.php:8
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32}() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP   4. BackstageController->create_people() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/core/App.php:32
+[17-Aug-2016 17:48:22 Asia/Taipei] PHP   5. Controller->view() /home/ubuntu/workspace/Learning-Defensive-programming/sign_up/controllers/BackstageController.php:86
