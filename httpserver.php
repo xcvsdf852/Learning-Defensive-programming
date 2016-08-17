@@ -109,6 +109,13 @@ class DaemonSignalListener
         pcntl_signal(SIGTERM, array($this, 'shutdown'));
 
         pcntl_signal(SIGUSR1, array($this, 'customSignal'));
+
+        // pcntl_signal(SIGUSR2, array($this, 'testSignal'));
+
+        pcntl_signal(SIGUSR2, function ($signal) {
+            echo 'HANDLE SIGNAL ' . $signal . PHP_EOL;
+            $this->addLog('Execute 測試SIGUSR2訊號: ' . $signal . PHP_EOL);
+        });
     }
 
     /**
@@ -159,6 +166,11 @@ class DaemonSignalListener
     public function customSignal($signal)
     {
         $this->addLog('Execute custom signal: ' . $signal);
+    }
+
+    public function testSignal($signal,$num)
+    {
+        $this->addLog('Execute 測試新增訊號: ' . $signal);
     }
 
     /**

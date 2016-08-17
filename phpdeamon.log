@@ -14,3 +14,45 @@ registerHendler - 2016-08-16 08:29:15
 Shutdown by signal: 15 - 2016-08-16 08:30:37
 Daemonized - 2016-08-16 08:30:50
 registerHendler - 2016-08-16 08:30:50
+Daemonized - 2016-08-17 02:00:31
+registerHendler - 2016-08-17 02:00:31
+Execute custom signal: 10 - 2016-08-17 02:01:01
+Daemonized - 2016-08-17 02:03:00
+registerHendler - 2016-08-17 02:03:00
+Execute test signal: 12 - 2016-08-17 02:03:34
+Daemonized - 2016-08-17 02:05:10
+registerHendler - 2016-08-17 02:05:10
+Execute 測試新增訊號: 12 - 2016-08-17 02:05:43
+Execute 測試新增訊號: 12 - 2016-08-17 02:09:09
+Daemonized - 2016-08-17 02:15:11
+registerHendler - 2016-08-17 02:15:11
+Execute 測試新增訊號: 12 - 2016-08-17 02:24:35
+Shutdown by signal: 15 - 2016-08-17 02:28:55
+Daemonized - 2016-08-17 02:29:56
+registerHendler - 2016-08-17 02:29:56
+Execute 測試新增訊號: 12 - 2016-08-17 02:33:19
+Shutdown by signal: 15 - 2016-08-17 02:35:02
+Shutdown by signal: 15 - 2016-08-17 02:35:38
+Daemonized - 2016-08-17 02:35:48
+registerHendler - 2016-08-17 02:35:48
+Shutdown by signal: 15 - 2016-08-17 02:36:36
+Daemonized - 2016-08-17 02:38:05
+registerHendler - 2016-08-17 02:38:05
+Shutdown by signal: 15 - 2016-08-17 02:38:21
+Daemonized - 2016-08-17 02:38:59
+registerHendler - 2016-08-17 02:38:59
+Execute 測試新增訊號: 12num : - 2016-08-17 02:39:22
+Shutdown by signal: 15 - 2016-08-17 02:40:56
+Daemonized - 2016-08-17 02:41:00
+registerHendler - 2016-08-17 02:41:00
+Execute 測試新增訊號: 12
+ - 2016-08-17 02:41:25
+Execute 測試新增訊號: 12
+ - 2016-08-17 02:42:28
+Shutdown by signal: 15 - 2016-08-17 02:43:04
+Daemonized - 2016-08-17 02:43:11
+registerHendler - 2016-08-17 02:43:11
+Execute 測試SIGUSR2訊號: 12
+ - 2016-08-17 02:43:30
+Execute 測試SIGUSR2訊號: 12
+ - 2016-08-17 02:58:02
