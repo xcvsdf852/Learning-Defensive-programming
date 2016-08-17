@@ -1,0 +1,19 @@
+[02-Aug-2016 12:30:22 UTC] PHP Warning:  require_once(core/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sign_up/models/acount_list.php on line 3
+[02-Aug-2016 12:30:22 UTC] PHP Stack trace:
+[02-Aug-2016 12:30:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sign_up/models/acount_list.php:0
+[02-Aug-2016 12:30:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'core/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sign_up/models/acount_list.php on line 3
+[02-Aug-2016 12:30:22 UTC] PHP Stack trace:
+[02-Aug-2016 12:30:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sign_up/models/acount_list.php:0
+[02-Aug-2016 12:31:29 UTC] PHP Warning:  require_once(sign_up/core/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sign_up/models/acount_list.php on line 3
+[02-Aug-2016 12:31:29 UTC] PHP Stack trace:
+[02-Aug-2016 12:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/sign_up/models/acount_list.php:0
+[02-Aug-2016 12:31:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'sign_up/core/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sign_up/models/acount_list.php on line 3
+[02-Aug-2016 12:31:29 UTC] PHP Stack trace:
+[02-Aug-2016 12:31:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/sign_up/models/acount_list.php:0
+[02-Aug-2016 12:31:34 UTC] PHP Warning:  require_once(/sign_up/core/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sign_up/models/acount_list.php on line 3
+[02-Aug-2016 12:31:34 UTC] PHP Stack trace:
+[02-Aug-2016 12:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sign_up/models/acount_list.php:0
+[02-Aug-2016 12:31:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/sign_up/core/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sign_up/models/acount_list.php on line 3
+[02-Aug-2016 12:31:34 UTC] PHP Stack trace:
+[02-Aug-2016 12:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sign_up/models/acount_list.php:0
+[04-Aug-2016 05:41:13 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/sign_up/models/get_people_list.php on line 15
